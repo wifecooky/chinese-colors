@@ -2,7 +2,7 @@
 
 A beautiful, interactive web application built with **React + Vite** that showcases traditional Chinese colors each day, accompanied by classical poetry, descriptions, and curated images.
 
-![App Screenshot](screenshot.png)
+![App Screenshot](/screenshot.png)
 
 ## Features
 
