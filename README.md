@@ -46,3 +46,7 @@ MIT
 ## Acknowledgements & Inspiration
 
 - [Chinese Colors](https://github.com/zerosoul/chinese-colors)
+
+## Todo
+
+- Reference: [Chinese Colors](https://github.com/zerosoul/chinese-colors)
