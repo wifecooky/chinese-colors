@@ -1,16 +1,48 @@
-# React + Vite
+# Traditional Chinese Colors Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, interactive web application built with **React + Vite** that showcases traditional Chinese colors each day, accompanied by classical poetry, descriptions, and curated images.
 
-Currently, two official plugins are available:
+![App Screenshot](screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Daily Color Display** – Shows a different color based on the current date.
+- **Search** – Find colors by Chinese name, Pinyin (tone‑insensitive) or Hex code.
+- **Copy to Clipboard** – Click on Hex or RGB codes to copy them.
+- **Dynamic Contrast** – Text color automatically switches between light and dark for optimal readability.
+- **Responsive Design** – Optimized layout for desktop and mobile.
+- **Mobile Navigation** – Swipe left/right to change colors and sticky navigation buttons at the bottom.
+- **Smooth Transitions & Micro‑animations** – Elegant UI interactions.
+- **Local Images** – All illustrations are stored locally for fast loading.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open `http://localhost:5173` to view the app.
+
+## Project Structure
+
+```
+src/
+  components/
+    ColorDisplay.jsx
+    InfoCard.jsx
+    SearchOverlay.jsx
+  data/
+    colors.js
+  App.jsx
+public/
+  images/   # local illustrations
+```
+
+## License
+
+MIT
+
+## Acknowledgements & Inspiration
+
+- [Chinese Colors](https://github.com/zerosoul/chinese-colors)
